@@ -1,0 +1,9 @@
+let number = [1,2,3,2,4,5,34,34,45,24,9]
+
+
+let evenNumbers = number.filter(function(element){
+    return element%2 === 0
+})
+.map((element)=> {
+    return Math.log(!element%2===0)
+}) 
